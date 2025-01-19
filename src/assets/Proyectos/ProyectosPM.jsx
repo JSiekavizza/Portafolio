@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
+import useOnScreen from "../useOnScreen";
 
 const ProyectosPM = () => {
+  const sectionRef = useRef(null);
+  const isVisible = useOnScreen(sectionRef, 0.2);
   return (
     <>
-      <div className="section mt-8 ">
+      <div ref={sectionRef} className="section mt-8 ">
         <h2
-          className="flex font-oswald font-thin text-3xl  p-3 mb-9"
+          className={`${
+            isVisible ? "tracking-in-expand" : "opacity-0"
+          } transition-opacity duration-500 ease-out flex justify-end font-oswald font-thin text-3xl  p-3 mr-3`}
           id="#project-manager"
         >
           project__manager--

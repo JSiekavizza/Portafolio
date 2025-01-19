@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import useOnScreen from "../useOnScreen.jsx";
+
+import "../../App.css";
 
 import { MdNavigateBefore } from "react-icons/md";
 import { MdNavigateNext } from "react-icons/md";
@@ -86,6 +89,8 @@ const ProjectSlider = ({ projects }) => {
 };
 
 const Proyectos = () => {
+  const sectionRef = useRef(null);
+  const isVisible = useOnScreen(sectionRef, 0.2);
   const projects = [
     {
       title: "Menú App Web",
@@ -117,10 +122,12 @@ const Proyectos = () => {
   ];
 
   return (
-    <div className="section mt-6">
+    <div ref={sectionRef} className="section mt-6">
       <h2
-        className="flex font-oswald font-thin text-3xl p-3"
-        id="#proyectos_dev"
+        className={`${
+          isVisible ? "tracking-in-expand" : "opacity-0"
+        } transition-opacity duration-500 ease-out flex justify-end font-oswald font-thin text-3xl  p-3 mr-3`}
+        id="#formación"
       >
         proyectos__dev--
       </h2>
