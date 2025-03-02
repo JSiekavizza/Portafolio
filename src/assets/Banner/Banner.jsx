@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import useOnScreen from "../useOnScreen";
-import "../../App.css";
 
 const Banner = () => {
   const sectionRef = useRef(null);

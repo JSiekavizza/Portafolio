@@ -1,27 +1,19 @@
-import "./App.css";
-import Banner from "./assets/Banner/Banner";
-import Proyectos from "./assets/Proyectos/Proyectos";
-import Skills from "./assets/Skills/Skills";
-import ProyectosPM from "./assets/Proyectos/ProyectosPM";
-import Formacion from "./assets/Formación/Formacion";
+import Home from "../src/Home/Home.jsx";
 import Footer from "./assets/Footer/Footer";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div className="">
-        <h1 className="font-oswald text-3xl font-bold underline p-1.5">
-          Hello world!
-        </h1>
-        <Banner />
-        <Proyectos />
-        <Skills />
-        <ProyectosPM />
-        <Formacion />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
         <div className="bottom-0 mb-0">
           <Footer />
         </div>
-      </div>
+      </BrowserRouter>
     </>
   );
 }
