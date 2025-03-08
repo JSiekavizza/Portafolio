@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="section min-height: 100vh bg-black text-white">
+      <div className="section min-height: 100vh bg-blue-700 opacity-90 text-white">
         <div className="grid grid-cols-3 items-start p-6">
           <div>
             <h2 className="text-sm lg:text-lg font-oswald font-semibold">
@@ -11,10 +11,10 @@ const Footer = () => {
             </h2>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-2">
             <h3
               className="text-sm lg:text-lg font-oswald font-semibold
-            underline underline-offset-8"
+            "
             >
               Proyectos_dev
             </h3>
@@ -31,8 +31,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="space-y-4">
-            <h3 className="text-sm lg:text-lg font-oswald font-semibold underline underline-offset-8">
+          <div className="space-y-2">
+            <h3 className="text-sm lg:text-lg font-oswald font-semibold">
               Project Manager
             </h3>
             <div className="text-sm">

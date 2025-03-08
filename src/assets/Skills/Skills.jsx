@@ -1,25 +1,16 @@
 import React, { useRef } from "react";
-import useOnScreen from "../useOnScreen";
 
 const Skills = () => {
-  const sectionRef = useRef(null);
-  const isVisible = useOnScreen(sectionRef, 0.2);
-
   return (
     <>
-      <div ref={sectionRef} className="section  rounded-sm p-6 mt-6">
-        <h2
-          className={`${
-            isVisible ? "tracking-in-expand" : "opacity-0"
-          } transition-opacity duration-500 ease-out flex justify-start font-oswald font-thin text-3xl  p-3 mr-3`}
-          id="#formación"
+      <div className="section relative p-6 overflow-hidden">
+        <div
+          className="relative h-32 flex justify-center 
+        items-center overflow-hidden z-10"
         >
-          --skills__dev
-        </h2>
-        <div className="flex justify-around py-6 mt-6 ">
-          <div className="p-3 w-28 lg:w-56">
-            <div className="flex justify-around">
-              <div>
+          <div className="p-3 w-24">
+            <div className="flex justify-around hover:scale-125 duration-500 easy-out z-10">
+              <div className="">
                 <img src="./imagenes/html-1.png" alt="lenguaje_html" />
               </div>
               <div>
@@ -28,8 +19,8 @@ const Skills = () => {
             </div>
             <h2 className="font-roboto font-medium  mt-3">Lenguajes</h2>
           </div>
-          <div className="p-3  lg:w-56">
-            <div className="flex justify-around  items-center">
+          <div className="p-3 w-24">
+            <div className="flex justify-around hover:scale-125 duration-500 easy-out z-10">
               <div>
                 <img src="./imagenes/react-jsx-1.png" alt="lenguaje_html" />
               </div>
@@ -42,8 +33,8 @@ const Skills = () => {
             </div>
             <h2 className="font-roboto font-medium  mt-3">Frameworks</h2>
           </div>
-          <div className="p-4 w-28 lg:w-56">
-            <div className="flex justify-around">
+          <div className="p-3 w-24">
+            <div className="flex justify-around hover:scale-125 duration-500 easy-out z-10">
               <div>
                 <img src="./imagenes/git-1.png" alt="lenguaje_html" />
               </div>
