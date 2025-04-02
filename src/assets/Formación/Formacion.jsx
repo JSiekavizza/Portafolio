@@ -12,7 +12,7 @@ const Formacion = () => {
           className={`${
             isVisible ? "tracking-in-expand" : "opacity-0"
           } transition-opacity duration-500 ease-out flex justify-start 
-          font-oswald font-thin text-blue-700 text-2xl  p-3 mr-3`}
+          font-oswald font-thin text-white/90 text-2xl  p-3 mr-3`}
           id="#formación"
         >
           --Formación
@@ -22,7 +22,7 @@ const Formacion = () => {
           className="flex justify-center 
         items-center overflow-hidden"
         >
-          <div className="relative bg-blue-700 text-center p-3 ">
+          <div className="relative bg-gray-900 text-center p-3 ">
             <div
               className="relative flex flex-col justify-around items-center 
             "
@@ -40,7 +40,7 @@ const Formacion = () => {
               </p>
             </div>
           </div>
-          <div className="relative bg-violet-950 text-center p-3">
+          <div className="relative bg-[#ff5733] text-center p-3">
             <div
               className="flex flex-col justify-around items-center 
             "

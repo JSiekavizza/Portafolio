@@ -1,0 +1,114 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "tituloCorto": "E-commerce",
+      "descripcionCorta": "",
+      "img": "/imagenes/bannerProduct3.png",
+      "tituloLargo": "E-commerce con carrito de compras",
+      "descripcion": "Plataforma de compras en línea con pedido de productos.",
+      "linkDemo": "https://simpletienda.vercel.app/carrito"
+    },
+    {
+      "id": 2,
+      "tituloCorto": "Encriptador",
+      "descripcionCorta": "",
+      "img": "/imagenes/bannerProduct2.png",
+      "tituloLargo": "Encriptador de Texto",
+      "descripcion": "Herramienta para cifrar y descifrar textos de manera segura.",
+      "linkDemo": "https://jsiekavizza.github.io/Encriptador-de-texto/"
+    },
+    {
+      "id": 3,
+      "tituloCorto": "App Web Menu para Restaurantes ",
+      "descripcionCorta": "Aplicación interactiva  que ofrece una experiencia agil y moderna para usuarios y restaurantes.",
+      "img": "/imagenes/bannerProduct1.png",
+      "tituloLargo": "Gestor de pedidos para Restaurantes",
+      "descripcion": "Una aplicación web interactiva que ofrece una experiencia agil y moderna para usuarios y restaurantes."
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "titulo": "E-commerce con carrito de compras",
+      "linkDemo": "https://simpletienda.vercel.app/carrito",
+      "img1": "/imagenes/bannerProduct3.png",
+      "img2": "/imagenes/ecoomerPags.png",
+      "contenido": "Plataforma de compras en línea con carrito de compars y boton de pedidos a whatsApp.",
+      "característicasPrincipales": "Tienda de ropa en linea con botón de pedidos sencillo a whatsApp. Renderizado veloz de elementos gracias a las capacidades de React. Diseño escalable y adaptable para futuras actualizaciones y personalización según las necesidades del cliente.",
+      "tecnologia1": "Vite + React: Para un desarrollo rápido y eficiente.",
+      "tecnologia2": "Tailwind CSS: Para un diseño moderno y estilizado.",
+      "tecnologia3": "React Router DOM: Gestión de rutas para una navegación fluida.",
+      "tecnologia4": "JavaScript (Funciones): Para gestionar los datos dinámicos desde un archivo db.json.",
+      "tecnologia5": "React Context: Uso de herramientas como useState, useEffect y dataContext para un manejo eficiente del estado y la lógica de datos.",
+      "estadoActual": "Tienda en línea, lista para futuras actualizaciones y ajustes de estilo según los requerimientos del cliente.",
+      "span": "* Diseño escalable y adaptable para tú negocio."
+    },
+    {
+      "id": 2,
+      "titulo": "Encriptador de Texto",
+      "linkDemo": "https://portafolio-lyart-gamma.vercel.app/",
+      "img1": "/imagenes/bannerProduct2.png",
+      "contenido": "Una herramienta segura para cifrar y descifrar mensajes...",
+      "característicasPrincipales": "Secret Code es una aplicación web diseñada para encriptar texto de forma simple y efectiva. Ideal para quienes buscan una herramienta rápida para proteger o codificar mensajes de manera básica.",
+      "tecnologia1": "JavaScript.",
+      "tecnologia2": "HTML & Css.",
+      "span": "* Ideal para uso personal o como demostración de técnicas básicas de manipulación de texto."
+    },
+    {
+      "id": 3,
+      "titulo": "Gestor de pedidos para Restaurantes",
+      "img1": "/imagenes/bannerProduct1.png",
+      "img2": "/imagenes/dashboard.png",
+      "contenido": "Este sistema permite a los clientes hacer pedidos de forma digital desde la comodidad de la mesa, ofreciendo una experiencia ágil y moderna para usuarios y restaurantes.",
+      "bannerCaracteristicas": "/imagenes/bannerCaracteristicas.png",
+      "característicasPrincipales": "Gestión de pedidos sencilla y rápida directamente desde la Dashboard del administrador. Renderizado veloz de elementos gracias a las capacidades de React. Diseño escalable y adaptable para futuras actualizaciones y personalización según las necesidades del cliente.",
+      "tecnologia1": "Vite + React: Para un desarrollo rápido y eficiente.",
+      "tecnologia2": "Tailwind CSS: Para un diseño moderno y estilizado.",
+      "tecnologia3": "React Router DOM: Gestión de rutas para una navegación fluida.",
+      "tecnologia4": "JavaScript (Funciones): Para gestionar los datos dinámicos desde un archivo db.json.",
+      "tecnologia5": "React Context: Uso de herramientas como useState, useEffect y dataContext para un manejo eficiente del estado y la lógica de datos.",
+      "tecnologia6": "JavaScript (Funciones): Para gestionar los datos dinámicos desde un archivo db.json.",
+      "estadoActual": "Primera versión, lista para despliegue y futuras actualizaciones de estilo según los requerimientos del cliente.",
+      "span": "* Diseño escalable y adaptable para futuras actualizaciones y personalización según las necesidades del cliente."
+    }
+  ],
+  "projectManager": [
+    {
+      "id": 1,
+      "titulo": "Community Manager | Feria de Manizales",
+      "descripcionCargo": "Gestión estratégica de la comunidad digital, creación de contenido atractivo y comunicación efectiva para fortalecer la presencia de la marca en redes sociales.",
+      "imagen": "FeriaManizales.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Project Manager | INCO Ingeniería",
+      "descripcionCargo": "Coordinación de proyectos de marketing digital, planificación y ejecución de campañas publicitarias, análisis de métricas e informes de rendimiento.",
+      "imagen": "INCOIngenieria.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Community Manager & Content Creator | Solana Coffee",
+      "descripcionCargo": "Administración de redes sociales, interacción con la comunidad y producción de contenido visual (fotografía y video) alineado con la identidad de la marca.",
+      "imagen": "solanacoffe.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Traffic Manager | Camelia Picnic",
+      "descripcionCargo": "Diseño, lanzamiento y optimización de campañas publicitarias para maximizar el alcance y la conversión del producto en plataformas digitales.",
+      "imagen": "PortafolioCameliaPicnic.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Brand Manager | Dileitto",
+      "descripcionCargo": "Desarrollo e implementación de estrategias de branding para comunicar eficazmente la misión y visión de la marca, generando conexión con el público objetivo.",
+      "imagen": "PortafolioDileitto.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Diseñador & Desarrollador Web | E5inco",
+      "descripcionCargo": "Creación y lanzamiento de una landing page alineada con la identidad visual de la empresa, optimizada para experiencia de usuario y conversión.",
+      "imagen": "PortafolioE5inco.jpg"
+    }
+  ]
+}
