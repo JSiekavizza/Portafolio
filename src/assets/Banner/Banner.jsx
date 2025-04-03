@@ -38,7 +38,10 @@ const Banner = () => {
           >
             Diseñador Web /
           </h2>
-          <h2 className="text-[#ff5733] text-sm sm:text-base md:text-xl font-raleway font-medium ml-1">
+          <h2
+            className="text-[#ff5733] text-sm sm:text-base md:text-xl
+          no-traslate font-raleway font-medium ml-1"
+          >
             Project Manager
           </h2>
         </div>

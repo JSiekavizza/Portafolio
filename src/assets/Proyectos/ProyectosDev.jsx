@@ -84,7 +84,10 @@ const ProyectosDev = () => {
             >
               {isExpanded === proyecto.id ? (
                 <div className="backdrop-blur-sm bg-cover flex flex-col items-center text-center gap-3">
-                  <h2 className="text-2xl font-oswald font-thin p-2">
+                  <h2
+                    className="text-2xl font-oswald font-thin p-2"
+                    translate="no"
+                  >
                     {proyecto.tituloLargo}
                   </h2>
                   <img
