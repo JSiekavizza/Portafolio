@@ -35,7 +35,7 @@ const Blog = () => {
         {/* Botón de regreso */}
         <div className="container mx-auto px-4 py-6">
           <Link
-            to="/blogs"
+            to="/"
             className="inline-flex items-center text-[#ff5733] hover:text-[#ff5750] transition-colors mb-6"
           >
             <svg
