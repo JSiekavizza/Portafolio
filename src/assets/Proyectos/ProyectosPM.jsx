@@ -67,29 +67,36 @@ const ProyectosPM = () => {
               <li
                 key={proyecto.id}
                 className="img-container flex w-screen h-[80vh] md:h-screen flex-none 
-                items-center justify-center flex-col p-6 md:p-4"
+          items-center justify-center p-4 md:p-6"
               >
-                <div className="relative w-full h-full max-w-[95vw] lg:max-w-[45vw] max-h-[70vh] rounded-lg overflow-hidden border border-[#ff5733]">
-                  {/* Texto sobre la imagen */}
-                  <div className="backdrop-blur-sm bg-blue-700/30 absolute bottom-0 left-0 right-0 z-10 p-4 bg-gradient-to-b from-black/80 to-transparent">
-                    <h3 className="text-2xl md:text-3xl font-oswald text-white">
-                      {proyecto.titulo}
-                    </h3>
-                    <p className="text-white/90 text-sm md:text-base font-raleway mt-2">
-                      {proyecto.descripcionCargo}
-                    </p>
-                  </div>
+                {/* Contenedor principal optimizado */}
+                <div className="relative w-full h-full max-w-[95vw] lg:max-w-[45vw] max-h-[70vh] md:max-h-[80vh] mx-auto">
+                  {/* Contenedor de imagen con padding y bordes */}
+                  <div className="relative w-full h-full rounded-lg overflow-hidden border-2 border-[#ff5733]/50 hover:border-[#ff5733] transition-all duration-300 p-1">
+                    {/* Imagen con object-contain para evitar cortes */}
+                    <img
+                      src={`/imagenes/${proyecto.imagen}`}
+                      className="w-full h-full object-contain bg-white rounded-lg"
+                      style={{ aspectRatio: "16/9" }}
+                      alt={proyecto.titulo}
+                    />
 
-                  {/* Imagen */}
-                  <img
-                    src={`/imagenes/${proyecto.imagen}`}
-                    className="w-full h-full object-cover"
-                    alt={proyecto.titulo}
-                  />
+                    {/* Texto sobre la imagen */}
+                    <div className="absolute bottom-0 left-0 right-0 z-10 p-4 bg-gradient-to-b from-transparent to-black/80">
+                      <div className="backdrop-blur-sm rounded-lg p-3">
+                        <h3 className="text-xl md:text-2xl lg:text-3xl font-oswald text-white">
+                          {proyecto.titulo}
+                        </h3>
+                        <p className="text-white/90 text-xs md:text-sm lg:text-base font-raleway mt-1 md:mt-2">
+                          {proyecto.descripcionCargo}
+                        </p>
+                      </div>
+                    </div>
 
-                  {/* Número de proyecto */}
-                  <div className="absolute top-4 right-4 bg-[#ff5733] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg shadow-md">
-                    #{index + 1}
+                    {/* Número de proyecto */}
+                    <div className="absolute top-3 right-3 bg-[#ff5733] text-white rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center font-bold text-base md:text-lg shadow-md">
+                      #{index + 1}
+                    </div>
                   </div>
                 </div>
               </li>
