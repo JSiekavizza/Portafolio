@@ -31,7 +31,7 @@
     {
       "id": 1,
       "titulo": "E-commerce con carrito de compras",
-      "linkDemo": "https://simpletienda.vercel.app/carrito",
+      "linkDemo": "https://simpletienda.vercel.app/",
       "img1": "/imagenes/bannerProduct3.png",
       "img2": "/imagenes/ecoomerPags.png",
       "contenido": "Plataforma de compras en línea con carrito de compars y boton de pedidos a whatsApp.",
